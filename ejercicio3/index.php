@@ -23,7 +23,8 @@ echo  '   '.User_pass($name);
 <html>
 <head>
 	<title>Formulario</title>
-	<h1>Ecuela Politécnica Nacional</h1>
+	<center><h1>Ecuela Politécnica Nacional</h1> </center>
+	
 </head>
 <body>
 
