@@ -11,4 +11,48 @@
  Si los datos son correctos debe redirigir a otra página bienvenido.php que debe imprimir el mensaje "Bienvendo JUAN". (con el nombre de usuario en mayúsculas)
  */
 
+/*	
+$name = 'Juan';
+echo "Retornando la funcion : \n";
+echo  '   '.User_pass($name);
+*/
+
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<h1>Ecuela Politécnica Nacional</h1>
+</head>
+<body>
+
+<form method="post" action="formulario.php">
+	
+<center>
+						<div>
+							<label><i> <b> Usuario: </i> </b></label>
+
+							<input type="text" id="userid" name="Usuario" required="required" placeholder="Ingrese Usuario" >
+
+						</div>
+						<br> 
+						<div>
+							<label> <i> <b> Contraseña: </i> </b></label> 
+							<input type="password" name="Contraseña" required="required" placeholder="Ingrese Contraseña">
+						</div>
+
+						<br>
+						<button type="submit" class="btn btn-primary"> Enviar! </button>
+
+					</center>
+
+	
+</form>
+
+
+</body>
+</html>
+
+
+
