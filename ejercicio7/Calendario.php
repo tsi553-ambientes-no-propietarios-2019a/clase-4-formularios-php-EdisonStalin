@@ -48,7 +48,7 @@
 					$ContDesp = $Cont + $dias[$a];
 							//echo "$ContDesp <br>"; para verificar si hace la suma entre dos numeros del array
 						
-					if($dato <1 || $dato > 365 ||$dato == " "){
+					if($dato <1 || $dato > 365){
 									//echo "El numero ingresado no esta dentro del rango de 1-365 (dias).";
 									echo "<br>".diasfaltantes($dato,$definida);
 									break;
