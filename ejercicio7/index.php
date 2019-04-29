@@ -7,11 +7,12 @@ Escribir código PHP que inicialice un arreglo con los números del 1 al 365. De
 
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Calendario</title>
-	<center><h1>Ecuela Politécnica Nacional</h1> </center>
+	<center><h1>AÑO NUEVO</h1> </center>
 	<center><text> <i>Ingrese un numero entre el 1-365</i> </text></center>
 </head>
 <body>
@@ -23,7 +24,7 @@ Escribir código PHP que inicialice un arreglo con los números del 1 al 365. De
 							<label><i> <b> Calendario: </i> </b></label>
 
 
-							<input type="numero" id="dayid" name="dia" required="required" placeholder="Ingrese el numero" >
+							<input type="text" maxlength="9" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false; id="dayid" name="dia" required="required" placeholder="Ingrese el numero" >
 
 						</div>
 						<br>
