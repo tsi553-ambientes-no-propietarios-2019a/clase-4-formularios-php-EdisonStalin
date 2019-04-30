@@ -24,7 +24,7 @@ Escribir código PHP que inicialice un arreglo con los números del 1 al 365. De
 							<label><i> <b> Calendario: </i> </b></label>
 
 
-							<input type="text" maxlength="9" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false; id="dayid" name="dia" required="required" placeholder="Ingrese el numero" >
+							<input type="number" maxlength="3" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false; id="dayid" name="dia" required="required" placeholder="Ingrese el numero" >
 
 						</div>
 						<br>
