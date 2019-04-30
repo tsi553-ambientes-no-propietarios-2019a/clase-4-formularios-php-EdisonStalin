@@ -4,3 +4,22 @@
 - Utilizar HTML y CSS para dar estilo a la lista. Cada mes debe mostrarse de diferente color junto con la lista de días. Los meses deben aparecer con negrita. Pista: se puede utilizar elementos ul y li para mostrar la lista.
 
 */
+
+
+function saber_dia($nombredia) {
+$dias = array('Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado');
+$fecha = $dias[date('N', strtotime($nombredia))];
+echo $fecha;
+}
+// ejecutamos la función pasándole la fecha que queremos
+saber_dia('2019-04-28');
+for($f=1;$f<=100;$f++)
+{
+  echo $f;
+  echo "<br>";
+}
+
+
+?>
+
+
